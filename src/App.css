@@ -1,0 +1,29 @@
+.App {
+    background-color: rgb(220, 138, 37);
+    height: 90vh;
+    width: 100vw;
+}
+
+.header {
+    background-color:cornsilk;
+    border: 1.2px solid brown;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: none;
+}
+
+.header link {
+    width: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.link {
+    background-color: moccasin;
+    border-radius: 5px;
+}
+.link:hover {
+    color: blueviolet;
+}
+

@@ -1,10 +1,17 @@
-import './Components/App.css';
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './App.css';
+import Home from './Components/Home'
+import './Components/Header';
 import Header from './Components/Header';
 
 function App() {
-  return (
+	return (
 		<div className='App'>
-			<Header className='App-header' />
+         <Header />
+         <Home />
+         <Link/>
 		</div>
 	);
 }
